@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:src="@drawable/grupo_esfera" />
+
+    <Button
+        android:id="@+id/btn_opendoor"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:background="@drawable/circle_btn"
+        android:gravity="center"
+        android:text="Abrete Sesamo"
+        android:textColor="@android:color/white" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/idSnackbar"
+                android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+</LinearLayout>
